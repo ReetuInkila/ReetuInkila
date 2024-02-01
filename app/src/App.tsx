@@ -16,8 +16,8 @@ function App() {
         touch with me is through the languages JavaScript, C#, and Python.
       </p>
       <p>
-        Curious about how I spend my free time? Take a sneak peek into my latest run 
-        <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more 
+        Curious about how I spend my free time? Take a sneak peek into my latest 
+        run <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more 
         adventurous, you can indulge in some "temperature espionage" and check out the 
         current climate in our home <a href="http://reetuinkila.eu.pythonanywhere.com/">here</a>.
       </p>
@@ -27,7 +27,8 @@ function App() {
         <a href="https://www.strava.com/athletes/40032012">Strava</a>
 
       </div>
-      <p>
+      <hr/>
+      <p id="skills">
         JavaScript | C++ | Python | Jupyter Notebook | Firebase | GCP | SQL | Docker | CSS | TypeScript | HTML | Git | Java | React | Flask | Arduino | C#
       </p>
     </div>
