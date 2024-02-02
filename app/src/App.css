@@ -1,15 +1,20 @@
 body{
     overflow-x: hidden;
+    margin: 0;
+}
+.app{
+    width: max-content;
+    height: max-content;
 }
 h1{
     float: left;
     clear: both;
-    margin: 1em 0 0 1em;
+    margin: 1em 1em 0 1em;
     font-size: 6vw;
 }
 p {
     font-size: 2vw;
-    margin: 0 0 1em 3em;
+    margin: 0 3em 1em 3em;
 }
 #skills {
     float: left;
@@ -42,5 +47,19 @@ hr{
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .container {
+        display: block;
+    }
+    #text{
+        width: 100%;
+    }
+    #links{
+        margin: 0 auto;
+        width: max-content;
+    }
+    .link{
+        float: left;
+        clear: none;
+        margin: 0 1em 0 1em;
+    }
 }
