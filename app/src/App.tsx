@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import LinkComponent from './LinkComponent';
+import linkedinLogo from "./logos/linkedin_icon.svg";
+import githubLogo from "./logos/github_icon.svg";
+import stravaLogo from "./logos/strava_icon.svg";
 
 function App() {
   return (
@@ -22,10 +26,18 @@ function App() {
         current climate in our home <a href="http://reetuinkila.eu.pythonanywhere.com/">here</a>.
       </p>
       <div id="links">
-        <a href="https://www.linkedin.com/in/reetuinkila/">LinkedIn</a> 
-        <a href="https://github.com/ReetuInkila">Github</a>
-        <a href="https://www.strava.com/athletes/40032012">Strava</a>
-
+        <LinkComponent
+          url="https://www.linkedin.com/in/reetuinkila/"
+          iconPath={linkedinLogo}
+        />
+        <LinkComponent
+          url="https://github.com/ReetuInkila"
+          iconPath={githubLogo}
+        />
+        <LinkComponent
+          url="https://www.strava.com/athletes/40032012"
+          iconPath={stravaLogo}
+        />
       </div>
       <hr/>
       <p id="skills">
