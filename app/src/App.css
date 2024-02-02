@@ -17,8 +17,8 @@ h1{
     color: #e59560;
 }
 p {
-    font-size: 2vw;
-    margin: 0 3em 1em 3em;
+    font-size: 1.5vw;
+    margin: 0 4em 1em 4em;
 }
 #skills {
     float: left;
@@ -71,5 +71,11 @@ a:visited {
         float: left;
         clear: none;
         margin: 0 1em 0 1em;
+    }
+    h1{
+        font-size: 8vh;
+    }
+    p {
+        font-size: 2vh;
     }
 }
