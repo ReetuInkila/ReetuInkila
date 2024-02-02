@@ -1,4 +1,4 @@
-name: pp to Cloud Run
+name: app to Cloud Run
 on:
   push:
     branches:
@@ -42,7 +42,8 @@ jobs:
         name: 'Authenticate to Google Cloud'
         uses: 'google-github-actions/auth@v2'
         with:
-          service_account: 'github-actions@inkilareetu.iam.gserviceaccount.com'
+          workload_identity_provider: ${{ secrets.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'        
       - name: Build and push
