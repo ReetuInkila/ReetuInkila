@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import LinkComponent from './LinkComponent';
 import linkedinLogo from "./logos/linkedin_icon.svg";
-import githubLogo from "./logos/github_icon.svg";
+import githubLogo from "./logos/github_icon_white.svg";
 import stravaLogo from "./logos/strava_icon.svg";
 
 function App() {

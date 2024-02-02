@@ -1,6 +1,8 @@
 body{
     overflow-x: hidden;
     margin: 0;
+    background-color: #1d3124;
+    color: #c3cbd6;
 }
 .app{
     width: max-content;
@@ -11,6 +13,7 @@ h1{
     clear: both;
     margin: 1em 1em 0 1em;
     font-size: 6vw;
+    color: #e59560;
 }
 p {
     font-size: 2vw;
@@ -23,6 +26,7 @@ p {
 }
 hr{
     width: 100%;
+    color: #e59560;
 }
 .container {
     float: left;
@@ -44,6 +48,10 @@ hr{
 .icon{
     width: 8vw;
     height: 8vw;
+}
+
+a:visited {
+    color: #c3cbd6;
 }
 
 @media only screen and (max-width: 900px) {
