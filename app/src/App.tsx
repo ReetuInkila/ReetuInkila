@@ -46,7 +46,7 @@ function App() {
       
       <p id="skills">
       <hr/>
-        JavaScript | C++ | Python | Jupyter Notebook | Firebase | GCP | SQL | Docker | CSS | TypeScript | HTML | Git | Java | React | Flask | Arduino | C#
+        JavaScript | C++ | Python | Jupyter Notebook | Firebase | GCP | SQL | Docker | Chart.js | CSS | TypeScript | HTML | Git | Java | React | Flask | Arduino | C# | Leafet
       </p>
     </div>
   );
