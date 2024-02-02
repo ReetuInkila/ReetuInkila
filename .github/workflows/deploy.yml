@@ -44,7 +44,13 @@ jobs:
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
       - name: 'Set up Cloud SDK'
-        uses: 'google-github-actions/setup-gcloud@v1'      
+        uses: 'google-github-actions/setup-gcloud@v1'   
+      - name : Setup REACT ENV Files
+        env:
+          REACT_ENV: ${{ secrets.REACT_ENV }}
+        shell: bash
+        run: |- 
+           echo "${{ secrets.REACT_ENV }}" > .env      
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v3
