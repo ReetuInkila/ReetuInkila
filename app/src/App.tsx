@@ -9,7 +9,7 @@ import MouseFollower from './MouseFollower';
 
 function App() {
   const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
-  const [skills] = React.useState(['JavaScript', 'C++', 'Python', 'Jupyter', 'Notebook', 'Firebase', 'GCP', 'SQL', 'Docker', 'Chart.js', 'CSS', 'TypeScript', 'HTML', 'Git', 'Java', 'React', 'Flask', 'Arduino', 'C#', 'Leafet']);
+  const [skills] = React.useState(['JavaScript', 'C++', 'Python', 'Jupyter Notebook', 'Firebase', 'GCP', 'SQL', 'Docker', 'Chart.js', 'CSS', 'TypeScript', 'HTML', 'Git', 'Java', 'React', 'Flask', 'Arduino', 'C#', 'Leafet']);
 
   const handleMouseMove = (e:any) => {
     setMousePosition({ x: e.clientX, y: e.clientY });
