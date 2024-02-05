@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import LinkComponent from './LinkComponent';
+import SkillsComponent from './SkillsComponent';
 import linkedinLogo from "./logos/linkedin_icon.svg";
 import githubLogo from "./logos/github_icon_white.svg";
 import stravaLogo from "./logos/strava_icon.svg";
 
 function App() {
+
+  let skills: string[]= ['JavaScript', 'C++', 'Python', 'Jupyter', 'Notebook', 'Firebase', 'GCP', 'SQL', 'Docker', 'Chart.js', 'CSS', 'TypeScript', 'HTML', 'Git', 'Java', 'React', 'Flask', 'Arduino', 'C#', 'Leafet'];
+
   return (
     <div className="App">
       <h1>How Did You Find Here?</h1>
@@ -43,11 +47,9 @@ function App() {
           />
         </div>
       </div>
-      
-      <p id="skills">
-      <hr/>
-        JavaScript | C++ | Python | Jupyter Notebook | Firebase | GCP | SQL | Docker | Chart.js | CSS | TypeScript | HTML | Git | Java | React | Flask | Arduino | C# | Leafet
-      </p>
+      <SkillsComponent
+        skills={skills}
+      />
     </div>
   );
 }

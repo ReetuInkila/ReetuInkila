@@ -20,10 +20,11 @@ p {
     font-size: 1.5vw;
     margin: 0 4em 1em 4em;
 }
-#skills {
-    float: left;
-    clear: both;
-    text-align: justify;
+
+#skills p{
+    display: inline-block;
+    margin: auto;
+    padding: 0 1em 0 1em;
 }
 hr{
     width: 100%;
