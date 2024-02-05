@@ -56,6 +56,14 @@ hr{
 a:visited {
     color: #c3cbd6;
 }
+#flashlight{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(243, 232, 71, 0.5) 0%,  rgba(255,255,255,0) 70%);
+    border-radius: 50%;
+
+}
 
 @media only screen and (max-width: 900px) {
     .container {
