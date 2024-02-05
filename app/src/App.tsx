@@ -9,7 +9,7 @@ import MouseFollower from './MouseFollower';
 
 function App() {
   const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
-  const [skills, setSkills] = React.useState(['JavaScript', 'C++', 'Python', 'Jupyter', 'Notebook', 'Firebase', 'GCP', 'SQL', 'Docker', 'Chart.js', 'CSS', 'TypeScript', 'HTML', 'Git', 'Java', 'React', 'Flask', 'Arduino', 'C#', 'Leafet']);
+  const [skills] = React.useState(['JavaScript', 'C++', 'Python', 'Jupyter', 'Notebook', 'Firebase', 'GCP', 'SQL', 'Docker', 'Chart.js', 'CSS', 'TypeScript', 'HTML', 'Git', 'Java', 'React', 'Flask', 'Arduino', 'C#', 'Leafet']);
 
   const handleMouseMove = (e:any) => {
     setMousePosition({ x: e.clientX, y: e.clientY });
@@ -17,6 +17,11 @@ function App() {
 
   return (
     <div className="App" onMouseMove={handleMouseMove}>
+      <p id='hidden'>
+        I'm always looking for new challenges and especially 
+        now I'm looking for a job where I can continue learning 
+        to become a full-stack professional!
+      </p>
       <h1>How Did You Find Here?</h1>
       <div className='container'>
         <div id='text'>
@@ -35,6 +40,9 @@ function App() {
             run <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more
             adventurous, you can indulge in some "temperature espionage" and check out the
             current climate in our home <a href="http://reetuinkila.eu.pythonanywhere.com/">here</a>.
+          </p>
+          <p>
+            Can you find the hidden text?
           </p>
         </div>
         <div id="links">
