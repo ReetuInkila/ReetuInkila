@@ -14,8 +14,8 @@ const MouseFollower= ({ position }: MouseFollowerProps) => {
     <div
       id='flashlight'
       style={{
-        left: position.x - 200,
-        top: position.y - 200,
+        left: position.x - 25,
+        top: position.y - 25,
       }}
     />
   );
