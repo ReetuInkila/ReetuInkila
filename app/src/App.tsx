@@ -23,7 +23,7 @@ function App() {
           <p>
             Greetings! I'm Reetu, a passionate physics student who's decided to take a leap into
             the world of software development. While my academic roots lie in the complexities of
-            physics, my heart and curiosity have led me to the ever-evolving realm of web
+            physics, my heart and curiosity have led me to the ever-evolving realm of software
             development.
           </p>
           <p>
