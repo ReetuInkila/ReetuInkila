@@ -37,3 +37,21 @@
 </div>
 
 ###
+
+<h2 align="left">Technologies I use</h2>
+
+<div align="left">
+  
+  <img src="./images/gcp.svg" height="40" alt="gcp logo"  />
+  <img width="12" />
+  <img src="./images/docker.svg" height="40" alt="docker logo"  />
+  <img width="12" />
+  <img src="./images/mysql.svg" height="40" alt="mysql logo"  />
+  <img width="12" />
+  <img src="./images/git.svg" height="40" alt="git logo"  />
+  <img width="12" />
+
+
+</div>
+
+###
