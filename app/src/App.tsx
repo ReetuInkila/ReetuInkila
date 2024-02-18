@@ -60,9 +60,7 @@ function App() {
       <SkillsComponent
         skills={skills}
       />
-      <MouseFollower 
-        position={mousePosition}
-      />
+      {/*<MouseFollower position={mousePosition} />*/}
     </div>
   );
 }
