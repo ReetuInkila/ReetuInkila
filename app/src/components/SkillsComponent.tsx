@@ -12,9 +12,9 @@ const SkillsComponent: React.FC<{ skills: string[] }> = React.memo(function Skil
     <div id="skills">
       <hr />
       {skills.map((skill, index) => (
-        <p key={index} style={{ color: colors[Math.floor(Math.random() * (colors.length))] }}>
+        <span key={index} style={{ color: colors[Math.floor(Math.random() * (colors.length))] }}>
           -{skill}-
-        </p>
+        </span>
       ))}
     </div>
   );
