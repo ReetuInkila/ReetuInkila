@@ -3,10 +3,13 @@ import LinkComponent from '../components/LinkComponent';
 import linkedinLogo from "./logos/linkedin_icon.svg";
 import githubLogo from "./logos/github_icon_white.svg";
 import stravaLogo from "./logos/strava_icon.svg";
+import scrollLogo from "./images/scroll.svg";
+
 
 const Links = () => {
 	return (
 		<div id="contact">
+            <a href="#about"><img className="upsideDownIcon" alt="" src={scrollLogo}></img></a>
             <p>
                 Curious about how I spend my free time? Take a sneak peek into my latest
                 run <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more

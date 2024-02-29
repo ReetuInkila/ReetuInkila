@@ -8,7 +8,7 @@ import Links from './pages/links'
 
 function App(props) {
   return(
-        <PageScroller style={{display: 'flex', flexDirection: 'column'}}>
+        <PageScroller>
             <Page style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} navTitle='Hello'>
                 <Home/>
             </Page>
