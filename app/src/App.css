@@ -7,6 +7,8 @@ body{
 }
 h1 {
     font-size: 100px;
+    display: block;
+    text-align: center;
 }
 p {
     font-size: 30px;
@@ -19,7 +21,17 @@ span {
     width: 100vw;
     padding: 50px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.navigate {
+    display: block;
     text-align: center;
+}
+.links{
+    margin: 0 auto;
+    width: max-content;
 }
 .link {
     margin: 1vw 6vw 1vw 6vw;

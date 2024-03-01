@@ -9,7 +9,7 @@ import scrollLogo from "./images/scroll.svg";
 const Links = () => {
 	return (
 		<div id="contact">
-            <a href="#about"><img className="upsideDownIcon" alt="" src={scrollLogo}></img></a>
+            <a className="navigate" href="#about"><img className="upsideDownIcon" alt="" src={scrollLogo}></img></a>
             <p>
                 Curious about how I spend my free time? Take a sneak peek into my latest
                 run <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more
@@ -21,18 +21,21 @@ const Links = () => {
                 now I'm looking for a job where I can continue learning 
                 to become a full-stack professional!
             </p>
-            <LinkComponent
-                url="https://www.linkedin.com/in/reetuinkila/"
-                iconPath={linkedinLogo}
-            />
-            <LinkComponent
-                url="https://github.com/ReetuInkila"
-                iconPath={githubLogo}
-            />
-            <LinkComponent
-                url="https://www.strava.com/athletes/40032012"
-                iconPath={stravaLogo}
-            />
+            <div className="links">
+                <LinkComponent
+                    url="https://www.linkedin.com/in/reetuinkila/"
+                    iconPath={linkedinLogo}
+                />
+                <LinkComponent
+                    url="https://github.com/ReetuInkila"
+                    iconPath={githubLogo}
+                />
+                <LinkComponent
+                    url="https://www.strava.com/athletes/40032012"
+                    iconPath={stravaLogo}
+                />
+            </div>
+            
         </div>
 	);
 };
