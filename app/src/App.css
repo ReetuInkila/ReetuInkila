@@ -5,61 +5,86 @@ body{
     color: #c3cbd6;
     font-family: Courier;
 }
-h1 {
+.app{
+    width: max-content;
+    height: max-content;
+}
+h1{
+    float: left;
+    clear: both;
+    margin: 0em 1em 0 1em;
+    font-size: 6vw;
     color: #e59560;
-    font-size: 100px;
-    display: block;
-    text-align: center;
 }
 p {
-    font-size: 30px;
+    font-size: 1.5vw;
+    margin: 0 4em 1em 4em;
 }
-hr {
-    color: #e59560;
-}
-#skills p {
+
+#skills p{
     display: inline-block;
     margin: auto;
-    padding: 0 1em;
+    padding: 0 1em 0 1em;
 }
-.page {
-    height: 100vh;
-    width: 100vw;
-    padding: 50px;
-    box-sizing: border-box;
+hr{
+    width: 100%;
+    color: #e59560;
+}
+.container {
+    float: left;
+    clear: both;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-a.navigate {
-    display: block;
-    text-align: center;
+#text{
+    width: 80vw;
 }
-.links{
-    margin: 0 auto;
-    width: max-content;
+#links{
+    width: 20vw;
+    box-sizing: border-box;
 }
-.link {
+.link{
+    float: left;
+    clear: both;
     margin: 1vw 6vw 1vw 6vw;
 }
 .icon{
     width: 8vw;
     height: 8vw;
 }
-.upsideDownIcon {
-    transform-origin: center center;
-    transform: rotateX(180deg);
-    width: 8vw;
-    height: 8vw;
+
+a:visited {
+    color: #c3cbd6;
 }
-@media (max-width: 1000px) {
-    h1 {
-        font-size: 50px;
+#flashlight{
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(circle, rgba(204, 224, 205, 0.5) 0%,  rgba(255,255,255,0) 50%);
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        display: block;
+    }
+    #text{
+        width: 100%;
+    }
+    #links{
+        margin: 0 auto;
+        width: max-content;
+    }
+    .link{
+        float: left;
+        clear: none;
+        margin: 0 1em 0 1em;
+    }
+    h1{
+        font-size: 8vh;
     }
     p {
-        font-size:20px;
-    }
-    span {
-        font-size: 20px;
+        font-size: 2vh;
     }
 }
