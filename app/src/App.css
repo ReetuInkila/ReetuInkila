@@ -31,7 +31,7 @@ hr {
     justify-content: center;
     align-items: center;
 }
-a.navigate {
+.navigate {
     display: block;
     text-align: center;
 }
@@ -52,14 +52,46 @@ a.navigate {
     width: 8vw;
     height: 8vw;
 }
-@media (max-width: 1000px) {
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     h1 {
         font-size: 50px;
     }
     p {
-        font-size:20px;
+        font-size: 15px;
     }
-    span {
-        font-size: 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 100px;
+    }
+    p {
+        font-size: 23px;
+    }
+} 
+
+/* Large devices (laptops/desktops/landscape tablets, 900px and up) */
+@media only screen and (min-width: 900px) {
+    h1 {
+        font-size: 100px;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+/* Extra small devices landscape layouts only */
+@media only screen and (max-height: 600px) and (orientation:landscape) {
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 15px;
     }
 }

@@ -5,7 +5,7 @@ const Home = () => {
 	return (
         <div id="home">
             <h1>How Did You Find Here?</h1>
-            <a className="navigate" href="#about" ><img className="icon" alt="" src={scrollLogo}></img></a>
+            <div className="navigate"><img className="icon" alt="Scroll down" src={scrollLogo}></img></div>
         </div>
 		
 	);

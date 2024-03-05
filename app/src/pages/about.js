@@ -10,7 +10,7 @@ const About = () => {
 
 	return (
 		<div id="about">
-            <a className="navigate" href="#home"><img className="upsideDownIcon" alt="" src={scrollLogo}></img></a>
+            <div className="navigate"><img className="upsideDownIcon" alt="Scroll up" src={scrollLogo}></img></div>
 			<p>
                 Greetings! I'm Reetu, a passionate physics student who's decided to take a leap into
                 the world of software development. While my academic roots lie in the complexities of
@@ -22,7 +22,7 @@ const About = () => {
                 touch with me is through the languages JavaScript, C#, and Python.
             </p>
             <SkillsComponent skills={skills} />
-            <a className="navigate" href="#contact" ><img className="icon" alt="" src={scrollLogo}></img></a>
+            <div className="navigate"><img className="icon" alt="Scroll down" src={scrollLogo}></img></div>
 		</div>
 	);
 };

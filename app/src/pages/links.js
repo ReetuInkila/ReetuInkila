@@ -9,7 +9,7 @@ import scrollLogo from "./images/scroll.svg";
 const Links = () => {
 	return (
 		<div id="contact">
-            <a className="navigate" href="#about"><img className="upsideDownIcon" alt="" src={scrollLogo}></img></a>
+            <div className="navigate"><img className="upsideDownIcon" alt="Scroll up" src={scrollLogo}></img></div>
             <p>
                 Curious about how I spend my free time? Take a sneak peek into my latest
                 run <a href="https://syke.inkilareetu.fi/">here</a>. If you're feeling a bit more
