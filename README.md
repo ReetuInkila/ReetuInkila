@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">Creating ski glide test equipment using microcontrollers, C++, PlatformIO, and imagination. [More here!](https://github.com/ReetuInkila/skiTester)</p>
+<p align="left">Creating ski glide test equipment using microcontrollers, C++, PlatformIO, and imagination. <a href="https://github.com/ReetuInkila/skiTester">More here!</a></p>
 
 ###
 
