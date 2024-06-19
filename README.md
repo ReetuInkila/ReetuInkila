@@ -6,11 +6,11 @@
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">Currently working on</h2>
 
 ###
 
-<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning AWS and Node.js</p>
+<p align="left">Creating ski glide test equipment using microcontrollers, C++, PlatformIO, and imagination. [More here!](https://github.com/ReetuInkila/skiTester)</p>
 
 ###
 
